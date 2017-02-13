@@ -8,7 +8,7 @@ var sentiment = {}
 
 sentiment.init = function () {
   return unirest.post('https://community-sentiment.p.mashape.com/text/')
-  .header('X-Mashape-Key', process.env.SENTIMENT_KEY)
+  .header('X-Mashape-Key', "mWWQq3FEvFmshAJtzCRtenOsiOx8p1jM1qnjsn6ipImPMp8Zgr")
   .header('Content-Type', 'application/x-www-form-urlencoded')
   .header('Accept', 'application/json')
 }

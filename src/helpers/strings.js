@@ -1,6 +1,11 @@
 module.exports = {
   queryString: [
-    ''
+    '100daysofcode',
+    '301daysofcode',
+    'github',
+    'Vasco da Gama',
+    'Manchester United',
+    'Internazionale'
   ],
   queryStringSubQuery: [
     ''
